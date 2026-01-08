@@ -31,6 +31,8 @@ target_include_directories(glint PRIVATE
     ${CMAKE_SOURCE_DIR}/external/glad/include
     ${CMAKE_SOURCE_DIR}/external/glfw/include
     ${CMAKE_SOURCE_DIR}/external/glm
+    ${CMAKE_SOURCE_DIR}/external/stb
+    ${CMAKE_SOURCE_DIR}/external/filewatch
     ${CMAKE_SOURCE_DIR}/external/
 )
 
